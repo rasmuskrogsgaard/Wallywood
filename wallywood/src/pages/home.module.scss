@@ -1,0 +1,38 @@
+.homecontent {
+  max-width: 75rem;
+  margin: auto;
+}
+
+.styleImg {
+  width: 100%;
+  height: 20rem;
+  margin-top: 20px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  font-size: smaller;
+}
+
+.gridItem {
+ 
+  padding: 10px;
+  display: flex;
+}
+
+.gridItem img {
+  max-width: 50%;
+  max-height: 200px;
+}
+
+.movieInfo {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+h2{
+  font-size: 1rem;
+  padding: 0;
+}

@@ -1,0 +1,61 @@
+.posterGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.6rem;
+    gap: 70px;
+
+    img{
+        width: 100%;
+        max-width: 200px;
+        
+    }
+    button{
+        margin-bottom: 30px;
+        background-color: #D1B3A7;
+        color: #524641;
+    }
+}
+
+.movieGrid{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 50px;
+    
+li{
+    display: list-item;
+    list-style-type: none;
+    color: #D97852;
+    
+
+}
+
+li:hover{
+    display: list-item;
+    list-style-type: none;
+    color: #524641;
+    
+    
+
+}
+
+
+h2, h3, h4{
+    color: #524641;
+}
+h1{
+    color: #D97852;
+}
+
+}
+
+.listWrapper{
+    width: 20%;
+    margin-top: 15px;
+    font-size: 0.8rem;
+    
+}

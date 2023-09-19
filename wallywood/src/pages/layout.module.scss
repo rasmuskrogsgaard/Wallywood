@@ -1,0 +1,49 @@
+.heronav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 100%;
+    border-bottom: 2px solid #5C1F06;
+    max-width: 75rem;
+    margin: auto;
+    
+    h1{
+
+        font-size: 3rem;
+        font-weight: 1000;
+        text-transform: uppercase;
+        color: #D97852;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 100px;
+       
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase;
+    }
+
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid rgba(0, 0, 0, 0.23);
+    padding: 20px;
+   
+.pHeader{
+    color: #D97852;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+    
+}
+
